@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.exciseflag.HelloController">
+   <children>
+      <Button layoutX="209.0" layoutY="355.0" mnemonicParsing="false" onAction="#CLEARButtonOnAction" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: black;" text="CLEAR" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="38.0" layoutY="14.0" mnemonicParsing="false" onAction="#LesothoButtonOnAction" prefHeight="35.0" prefWidth="97.0" text="Lesotho ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="466.0" layoutY="14.0" mnemonicParsing="false" onAction="#LithuaniaButtonOnAction" prefHeight="35.0" prefWidth="97.0" text="Lithuania">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="359.0" layoutY="14.0" mnemonicParsing="false" onAction="#HungaryButtonOnAction" prefHeight="35.0" prefWidth="97.0" text="Hungary ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="252.0" layoutY="14.0" mnemonicParsing="false" onAction="#LatviaButtonOnAction" prefHeight="35.0" prefWidth="97.0" text="Latvia">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="145.0" layoutY="14.0" mnemonicParsing="false" onAction="#LuxembourgButtonOnAction" prefHeight="35.0" prefWidth="97.0" text="Luxembourg">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="color1rec" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="46.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="509.0" />
+      <Rectangle fx:id="color2rec" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="46.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="509.0" />
+      <Rectangle fx:id="color3rec" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="46.0" layoutY="244.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="509.0" />
+   </children>
+</AnchorPane>
